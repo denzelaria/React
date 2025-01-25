@@ -14,11 +14,12 @@ import ChallengeScreen5 from './src/screens/FifthScreen'
 import GuessTheCountryScreen from './src/screens/Meeting6/GuessTheCountryScreen'
 import WinScreen from './src/screens/Meeting6/WinScreen'
 import SolarSystemScreen from './src/screens/Test/SolarSystemScreen'
-
+import TryCodeScreen from './src/screens/Meeting9/TryCodeScreen'
+import HomeScreen from './src/screens/Meeting9/HomeScreen'
 export default function App() {
   return (
     <SafeAreaProvider>
-      <SolarSystemScreen/>
+      <HomeScreen/>
     </SafeAreaProvider>
   )
 }
