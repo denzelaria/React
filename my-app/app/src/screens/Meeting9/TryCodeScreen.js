@@ -33,7 +33,7 @@ export default TryCodeScreen = () => {
 const styles = StyleSheet.create({
     containerAnItem: {
         margin:8,
-        backgroundColor:'lavendar',
+        backgroundColor:'lavender',
         borderWidth:1
     },
     image: {

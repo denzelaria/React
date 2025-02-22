@@ -1,8 +1,8 @@
 import React from 'react'
 import { NavigationContainer } from '@react-navigation/native';
 import { createStackNavigator } from '@react-navigation/stack';
-import HomeScreen from '../screens/Meeting9/HomeScreen';
-import DetailMovieScreen from '../screens/Meeting9/DetailMovieScreen';
+import HomeScreen from '../HomeScreen';
+import DetailMovieScreen from '../DetailMovieScreen';
 
 const Stack = createStackNavigator();
 const MainNavigator = () => {
